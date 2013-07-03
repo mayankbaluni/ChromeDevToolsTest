@@ -1,0 +1,33 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	-webkit-transition: background 1500ms;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+	font-size: 1.6em;
+}
+
+#orientation {
+	font-size: 1.3em;
+}
+
+@media all and (orientation: portrait) {
+	body {
+		background: #63b0e5;
+	}
+}
+
+@media all and (orientation: landscape) {
+	body {
+		background: #e1483f;
+	}
+	.logos {
+		width: 80px;
+	}
+}
