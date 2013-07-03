@@ -17,6 +17,14 @@ body {
 	font-size: 1.3em;
 }
 
+#save {
+	padding: 20px;
+	background: #18a460;
+	width: 50px;
+	margin: 0px auto 30px auto;
+	border-radius: 4px;
+}
+
 @media all and (orientation: portrait) {
 	body {
 		background: #63b0e5;
